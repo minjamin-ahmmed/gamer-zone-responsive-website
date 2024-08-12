@@ -192,7 +192,97 @@ margin-bottom: 32px;
     font-size: 24px;
     font-weight: 700; 
 }
+/* Online Games Styles */
+.online-games-container{
+    max-width: 1920px;
+}
+.online-games-text {
+    margin-top: 120px;
+    margin-bottom: 50px;
 
+}
+
+.online-games-text h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.span{
+    color: transparent;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+}
+
+.online-games-text p{
+    color: rgb(83, 76, 100);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.row-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 240px;
+}
+
+.row-container p{
+    color: rgb(83, 76, 100);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.image-1-container{
+    position: relative;
+}
+
+.image-2-container{
+    position: relative;
+}
+
+.image-3-container{
+    position: relative;
+}
+
+.image-4-container{
+    position: relative;
+}
+.watch-now{
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    text-align: center;
+    display: none;
+
+
+}
+
+.watch-now i{
+    font-size: 48px;
+    color: white;
+
+}
+
+.watch-now p{
+    color: rgb(255, 66, 165);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.image:hover + .watch-now{
+    display: block;
+  
+    
+}
+
+.image:hover{
+    filter: brightness(40%);
+}
 
 
 
@@ -227,7 +317,7 @@ margin-bottom: 32px;
     }
 
     .banner-image{
-        max-width: 400px;
+        max-width: 480px;
         margin-bottom: 40px;
         margin: 0 auto;
     }
@@ -239,7 +329,7 @@ margin-bottom: 32px;
         padding: 0px;
     }
     .banner-text{
-        width: 400px;
+        width: 480px;
        background-image: url(../images/Group\ 14.png);
        background-position: center;
        background-repeat: no-repeat;
@@ -299,5 +389,31 @@ margin-bottom: 32px;
     .btn{
         align-items: center;
     }
+
+    .online-games-container{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .row-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0px 70px;
+    
+    }
+
+    .image{
+        max-width: 450px;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+
+
+
+
 
 }
