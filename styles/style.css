@@ -75,9 +75,9 @@ font-family: "Work Sans", sans-serif;
    background-repeat: no-repeat;
    background-size: cover;
    
-   
 
 }
+
 .banner-text-element{
     max-width: 400px;
     margin: 0 auto;
@@ -133,4 +133,74 @@ font-family: "Work Sans", sans-serif;
     font-weight: 600;    
     padding: 20px 40px;
     border: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .banner-section{
+        max-width: 412px;
+        margin: 0 auto;
+    }
+
+    .nav-bar,
+    .unordered{
+        flex-direction: column;
+    }
+
+    .navbar{
+        padding: 40px 0px;
+    }
+
+    .nav-left{
+        margin-bottom: 60px;
+    }
+
+    .follow{
+        width: 262px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .banner-text-main{
+        flex-direction: column-reverse;
+    }
+
+    .banner-image{
+        max-width: 400px;
+        margin-bottom: 40px;
+        margin: 0 auto;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+    .banner-text-main{
+        padding: 0px;
+    }
+    .banner-text{
+        width: 400px;
+       background-image: url(../images/Group\ 14.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 0 auto;
+       margin-top: 40px;
+       
+    
+    }
+    .banner-text-element{
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .btn-primary{
+        width: 150px;
+    }
+
+    .btn-secondary{
+        width: 150px;
+    }
+
+
 }
