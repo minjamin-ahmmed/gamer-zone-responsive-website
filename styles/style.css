@@ -444,17 +444,102 @@ color:rgb(255, 66, 165);
 
 
 
+/* Games Container */
+.games-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 120px 280px;
 
+}
 
+.games{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.games-1,
+.games-2,
+.games-3,
+.games-4,
+.games-5,
+.games-6,
+.games-7,
+.games-8,
+.games-9{
+    align-items: center;
+    gap: 20px;
+}
 
+.games-1:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
+.games-2:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
+.games-3:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
+.games-4:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
+.games-5:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
+.games-6:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
+.games-7:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
+.games-8:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
-
+.games-9:hover {
+    color: rgb(255, 66, 165);
+    border: 1px solid rgb(249, 72, 178);
+    padding: 10px 20px;
+    border-radius: 46px;
+    transition: 0.5s;
+}
 
 
 
@@ -680,6 +765,7 @@ li{
 }
 .career-image-container{
     max-width: 450px;
+    
 }
 
 
@@ -688,9 +774,19 @@ li{
 }
 
 
+/* Games Container Responsive */
+.games-container{
+   max-width: 570px;
+   margin: 0 auto;
+   padding: 40px;
+}
 
-
-
+.games{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
 
 
 
