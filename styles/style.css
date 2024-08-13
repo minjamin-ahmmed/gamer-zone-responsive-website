@@ -291,6 +291,7 @@ margin-bottom: 32px;
 .play-instant-container{
     max-width: 1920px;
     margin: 0 auto;
+    margin-bottom: 200px;
 
 }
 
@@ -311,7 +312,7 @@ margin-bottom: 32px;
 .play-instant-text{
     max-width: 350px;
 }
-.play-instant-text h2{
+.h2{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -342,6 +343,110 @@ margin-bottom: 32px;
     width: 100%;
 }
 
+/* Play Games Container */
+.play-instant-container2{
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.play-instant-main2{
+    max-width: 1253px;
+    margin-left: 22%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-instant-image2{
+    position: relative;
+}
+
+.small-image2{
+    position: absolute;
+    top: 65%;
+    left: 75%;
+
+}
+.images2{
+    max-width: 610px;
+}
+
+.images2 img{
+    width: 100%;
+}
+
+
+.play-instant-text2{
+    max-width: 350px;
+}
+.span22{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+/* Career Container */
+.career-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.career-text-content{
+    width: 680px;
+    margin-left: 15%;
+}
+
+.career-text-content h3{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.career-text-content p{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.ul-container{
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.btn-third{
+    border-radius: 48px;
+background: rgb(255, 255, 255);
+padding: 20px 40px;
+border: none;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+color:rgb(255, 66, 165);
+}
+
+
+
+
+
+
 
 
 
@@ -355,8 +460,7 @@ margin-bottom: 32px;
 
 @media screen and (max-width:576px) {
     .banner-section{
-        max-width: 500px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     .nav-bar,
@@ -422,8 +526,7 @@ margin-bottom: 32px;
 
 
     .gamer-container{
-        max-width: 500px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     .gamer-container-main{
@@ -457,8 +560,7 @@ margin-bottom: 32px;
     }
 
     .online-games-container{
-        width: 500px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     .row-container{
@@ -480,8 +582,7 @@ margin-bottom: 32px;
 
 /* Play Instantly */
 .play-instant-container{
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 50px;
 
 }
@@ -511,6 +612,86 @@ margin-bottom: 32px;
 .small-image img{
     width: 100%;
 }
+
+/* Play instant */
+.play-instant-container2{
+    width: 100%;
+}
+
+.play-instant-main2{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+
+.span22,
+.play-instant-text2 h2,
+.play-instant-text2 p{
+    text-align: center;
+}
+.small-image2{
+    position: absolute;
+    top: 65%;
+    right: -20%;
+}
+
+.play-instant-text2{
+    width: 80%;
+}
+.images2{
+    max-width: 350px;
+}
+
+.images2 img{
+    width: 100%;
+}
+
+.small-image2{
+    max-width: 200px;
+}
+
+.small-image2 img{
+    width: 100%;
+}
+
+/* Career Container */
+.career-container{
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+.career-text-content{
+    width: 80%;
+    padding: 20px;
+    margin-left: 2%;
+}
+
+
+li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.career-image-container{
+    max-width: 450px;
+}
+
+
+.career-image-container img{
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 
